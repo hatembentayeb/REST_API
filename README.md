@@ -1,10 +1,10 @@
 
 Welcome to my First API with Flask
 ==================================
-  #####a basic RESTFULL API with flask and mongdb (CRUD)
-==================================
+     a basic RESTFULL API with flask and mongdb (CRUD)
 
-####List of operations :
+
+List of operations :
 ==================================
 
 ##### /insert / int:id / string:name / string:adresse
