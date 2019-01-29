@@ -9,25 +9,25 @@ List of operations :
 
       /insert / int:id / string:name / string:adresse
 
-      /delete\_all
+      /delete_all
 
-      /select\_all
+      /select_all
 
-      /select\_first
+      /select_first
 
-      /find\_by\_adr / string:adresse
+      /find_by_adr / string:adresse
 
-      /find\_by\_name/ string:name
+      /find_by_name/ string:name
 
-      /sort\_by\_adr
+      /sort_by_adr
 
-      /sort\_by\_name/
+      /sort_by_name
 
-      /sort\_by\_id/
+      /sort_by_id
 
-      /update\_name/int:id/old\_name/new\_name
+      /update_name/int:id/old_name/new_name
 
-      /update\_adr/int:id/old\_adr/new\_adr
+      /update_adr/int:id/old_adr/new_adr
 run
 ===
      run: python server.py
