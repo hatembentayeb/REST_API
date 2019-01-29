@@ -2,8 +2,6 @@
 Welcome to my First API with Flask
 ==================================
 a basic RESTFULL API with flask and mongdb (CRUD)
-
-\# REST\_API a basic RESTFULL API with flask and mongdb (CRUD)     help
 ==================================
 
 List of operations :
