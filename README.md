@@ -1,9 +1,12 @@
-# REST_API
+
+Welcome to my First API with Flask
+==================================
 a basic RESTFULL API with flask and mongdb (CRUD)
 
 \# REST\_API a basic RESTFULL API with flask and mongdb (CRUD)     help
+==================================
 
-Welcome to my First API with Flask
+List of operations :
 ==================================
 
 ##### /insert / int:id / string:name / string:adresse
@@ -27,3 +30,7 @@ Welcome to my First API with Flask
 ##### /update\_name/int:id/old\_name/new\_name
 
 ##### /update\_adr/int:id/old\_adr/new\_adr
+
+==================================
+run: python server.py
+==================================
