@@ -29,6 +29,5 @@ List of operations :
 
 ##### /update\_adr/int:id/old\_adr/new\_adr
 
-==================================
 run: python server.py
-==================================
+
