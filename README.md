@@ -1,130 +1,29 @@
 # REST_API
 a basic RESTFULL API with flask and mongdb (CRUD)
 
-<div class="container">
+\# REST\_API a basic RESTFULL API with flask and mongdb (CRUD)     help
 
-<div class="alert alert-primary w-10 p-2" role="alert">
-
-<center>
-
-# Welcome to my First API with Flask
-
-</center>
-
-</div>
-
-<div class="container w-2 p-5">
-
-<div class="alert alert-success w-5 p-1" role="alert">
-
-<center>
+Welcome to my First API with Flask
+==================================
 
 ##### /insert / int:id / string:name / string:adresse
 
-</center>
+##### /delete\_all
 
-</div>
+##### /select\_all
 
-<div class="alert alert-success w-5 p-1" role="alert">
+##### /select\_first
 
-<center>
+##### /find\_by\_adr / string:adresse
 
-##### /delete_all
+##### /find\_by\_name/ string:name
 
-</center>
+##### /sort\_by\_adr
 
-</div>
+##### /sort\_by\_name/
 
-<div class="alert alert-success w-5 p-1" role="alert">
+##### /sort\_by\_id/
 
-<center>
+##### /update\_name/int:id/old\_name/new\_name
 
-##### /select_all
-
-</center>
-
-</div>
-
-<div class="alert alert-success w-5 p-1" role="alert">
-
-<center>
-
-##### /select_first
-
-</center>
-
-</div>
-
-<div class="alert alert-success w-5 p-1" role="alert">
-
-<center>
-
-##### /find_by_adr / string:adresse
-
-</center>
-
-</div>
-
-<div class="alert alert-success w-5 p-1" role="alert">
-
-<center>
-
-##### /find_by_name/ string:name
-
-</center>
-
-</div>
-
-<div class="alert alert-success w-5 p-1" role="alert">
-
-<center>
-
-##### /sort_by_adr
-
-</center>
-
-</div>
-
-<div class="alert alert-success w-5 p-1" role="alert">
-
-<center>
-
-##### /sort_by_name/
-
-</center>
-
-</div>
-
-<div class="alert alert-success w-5 p-1" role="alert">
-
-<center>
-
-##### /sort_by_id/
-
-</center>
-
-</div>
-
-<div class="alert alert-success w-5 p-1" role="alert">
-
-<center>
-
-##### /update_name/int:id/old_name/new_name
-
-</center>
-
-</div>
-
-<div class="alert alert-success w-5 p-1" role="alert">
-
-<center>
-
-##### /update_adr/int:id/old_adr/new_adr
-
-</center>
-
-</div>
-
-</div>
-
-</div>
+##### /update\_adr/int:id/old\_adr/new\_adr
