@@ -7,27 +7,27 @@ Welcome to my First API with Flask
 List of operations :
 ==================================
 
-     ##### /insert / int:id / string:name / string:adresse
+      /insert / int:id / string:name / string:adresse
 
-     ##### /delete\_all
+      /delete\_all
 
-     ##### /select\_all
+      /select\_all
 
-     ##### /select\_first
+      /select\_first
 
-     ##### /find\_by\_adr / string:adresse
+      /find\_by\_adr / string:adresse
 
-     ##### /find\_by\_name/ string:name
+      /find\_by\_name/ string:name
 
-     ##### /sort\_by\_adr
+      /sort\_by\_adr
 
-     ##### /sort\_by\_name/
+      /sort\_by\_name/
 
-     ##### /sort\_by\_id/
+      /sort\_by\_id/
 
-     ##### /update\_name/int:id/old\_name/new\_name
+      /update\_name/int:id/old\_name/new\_name
 
-     ##### /update\_adr/int:id/old\_adr/new\_adr
+      /update\_adr/int:id/old\_adr/new\_adr
 run
 ===
      run: python server.py
