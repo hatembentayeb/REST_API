@@ -41,7 +41,7 @@ def get_one():
     if x is []:
         return dumps({'status': 'EMPTY'})
     else:
-        return dumps(x, {'status': 'OK'})
+        return dumps({'data':x, 'status': 'OK'})
 
 
 @app.route('/find_by_adr/<string:adresse>', methods=['GET'])
@@ -116,4 +116,4 @@ def help():
 
 
 if __name__ == '__main__':
-    app.run(host='192.168.0.102', port='2000', debug=True)
+    app.run(host='192.168.1.135', port='2000', debug=True)
