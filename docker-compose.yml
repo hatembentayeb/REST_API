@@ -1,0 +1,13 @@
+
+rest-api:
+    build : .
+    command: python server.py
+    ports:
+      - "2000:2000"
+    links :
+      - mongodb
+
+mongodb :
+    image: mongo
+
+
